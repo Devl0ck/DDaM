@@ -1,0 +1,101 @@
+HI-TECH Software 8051-C Compiler V9.60
+
+Linker command line:
+
+--edf=C:\PROGRA~2\HI-TECH Software\HC51\lite\9.60\dat\en_msgs.txt \
+  -h+D:\Other\Multisim11.0.2\Projects\Practica5new\Practica5new\Practica5new.sym \
+  -z -Q8052AH -ol.obj \
+  -MD:\Other\Multisim11.0.2\Projects\Practica5new\Practica5new\Practica5new.map \
+  -E1 -ver=8051-C#V9.60 -ACODE=00h-01FFFh -pvectors=00h \
+  -prbit=0/20h,rbss,rdata/CODE,irdata/CODE,idata/rbss -pbss=XDATA/idata \
+  -pdata=CODE+100h -pconst=CODE+100h -pstrings=CODE+100h -pnvram=bss,heap \
+  C:\Users\ALEXAN~1\AppData\Local\Temp\s6dg.obj \
+  D:\Other\Multisim11.0.2\Projects\Practica5new\Practica5new\main_0.obj \
+  C:\PROGRA~2\HI-TECH Software\HC51\lite\9.60\lib\51--nsc.lib 
+
+Object code version is 3.8
+
+Machine type is 8052AH
+
+Call graph:
+
+*start1 size 0,0 offset 0
+*    _main size 0,8 offset 0
+
+		Name          Link     Load   Length Selector Space Scale
+C:\Users\ALEXAN~1\AppData\Local\Temp\s6dg.obj
+		vectors          0        0        3       0     0
+		text            76       76       14       0     0
+D:\Other\Multisim11.0.2\Projects\Practica5new\Practica5new\main_0.obj
+		strings        100      100      245     100     0
+		text           345      345     1C0A     100     0
+
+C:\PROGRA~2\HI-TECH Software\HC51\lite\9.60\lib\51--nsc.lib
+ldc_byte.obj    text             3        3       73       0     0
+powerup.obj     text            8A       8A        3       0     0
+
+COMMON          rbss            20       20        8      20     1
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		vectors          0        0        3
+		text            76       76       14
+		strings        100      100      245
+		text           345      345     1C0A
+		text             3        3       73
+		text            8A       8A        3
+
+	CLASS	DATA     
+		rbss            20       20        8
+
+	CLASS	XDATA    
+
+	CLASS	BITSEG   
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		vectors         000000	00008D	00008D	       0       0  CODE    
+		rbit            000020	000008	000028	      20       1  BITSEG  
+		data            000100	001E4F	001F4F	     100       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+	CODE             008D-00FF
+	                 1F4F-1FFF
+
+                                  Symbol Table
+
+?a_main        rbss    0020  __Bbss         bss     0028
+__Bidata       idata   0028  __Birdata      irdata  0003
+__Brbit        rbit    0020  __Brdata       rdata   0003
+__Hbss         bss     0028  __Hcode        code    0028
+__Hconst       const   0100  __Hdata        data    0100
+__Hheap        heap    0028  __Hidata       idata   0028
+__Hirdata      irdata  0028  __Hnvram       nvram   0028
+__Hrbit        rbit    0000  __Hrbss        rbss    0028
+__Hrdata       rdata   0028  __Hstrings     strings 0345
+__Htext        text    0028  __Hvectors     vectors 0003
+__Lbss         bss     0028  __Lcode        code    0028
+__Lconst       const   0100  __Ldata        data    0100
+__Lheap        heap    0028  __Lidata       idata   0028
+__Lirdata      irdata  0028  __Lnvram       nvram   0028
+__Lrbit        rbit    0000  __Lrbss        rbss    0020
+__Lrdata       rdata   0028  __Lstrings     strings 0100
+__Ltext        text    0028  __Lvectors     vectors 0000
+__S0           (abs)   1F4F  _exit          text    0087
+_main          text    0345  intlevel0      (abs)   0000
+intlevel1      (abs)   0000  ldb_r0         text    0012
+ldb_r1         text    001F  ldb_r2         text    002C
+ldb_r3         text    0039  ldb_r4         text    0046
+ldb_r5         text    0053  ldb_r6         text    0060
+ldb_r7         text    006D  ldc_byte       text    0003
+ldc_r0         text    000E  ldc_r1         text    001B
+ldc_r2         text    0028  ldc_r3         text    0035
+ldc_r4         text    0042  ldc_r5         text    004F
+ldc_r6         text    005C  ldc_r7         text    0069
+powerup        text    008A  small_model    (abs)   0001
+stack_internal (abs)   0001  start          vectors 0000
+start1         text    0076  
