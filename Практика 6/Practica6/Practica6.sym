@@ -1,0 +1,91 @@
+__Lrdata 43 FFFFFFC0 DATA
+__Hrbss 43 0 DATA
+__Lrbss 20 0 DATA
+strx_xcopy 3 0 CODE
+__Birdata 3 FFFFFFC0 DATA
+__Hirdata 43 FFFFFFC0 DATA
+__Lirdata 43 FFFFFFC0 DATA
+powerup 58 0 CODE
+__Htext 43 0
+__Ltext 43 0
+?a_tput 42 0 DATA
+strx_copy 19 0 CODE
+__Hcode 43 0
+__Lcode 43 0
+__Hdata 120 0 CODE
+__Hconst 100 0 CODE
+__Ldata 100 0 CODE
+__Lconst 100 0 CODE
+__Bbss 43 0 XDATA
+__Hbss 43 0 XDATA
+__Hstrings 100 0 CODE
+__Lbss 43 0 XDATA
+__Lstrings 100 0 CODE
+str_xcopy 3 0 CODE
+__S0 248 0
+start1 44 0 CODE
+__Hnvram 43 0 XDATA
+small_model 1 0
+__Lnvram 43 0 XDATA
+__Hheap 43 0 XDATA
+__Lheap 43 0 XDATA
+_main 134 0 CODE
+str_copy 19 0 CODE
+?a_main 20 0 DATA
+_exit 55 0 CODE
+start 0 0 CODE
+intlevel0 0 0
+_tput 120 0 CODE
+strx_load 19 0 CODE
+__Brbit 20 20 BITSEG
+str_load 19 0 CODE
+__Hrbit 0 20 BITSEG
+intlevel1 0 0
+__Hvectors 3 0 CODE
+__Lrbit 0 20 BITSEG
+__Lvectors 0 0 CODE
+__Bidata 43 0 DATA
+__Hidata 43 0 DATA
+__Lidata 43 0 DATA
+stack_internal 1 0
+__Brdata 3 FFFFFFC0 DATA
+__Hrdata 43 FFFFFFC0 DATA
+%segments
+vectors 0 5A CODE
+rbit 0 22 BITSEG
+data 100 247 CODE
+%locals
+Z:\main_0.obj
+E:\Ã» –Œœ~1\≈–Õ¿«¿~1\PR548B~1\PRACTI~1\main.c
+4 120 0 CODE
+5 122 0 CODE
+6 124 0 CODE
+7 12F 0 CODE
+8 131 0 CODE
+11 134 0 CODE
+13 137 0 CODE
+14 146 0 CODE
+15 155 0 CODE
+16 164 0 CODE
+17 167 0 CODE
+18 16A 0 CODE
+19 16C 0 CODE
+20 16F 0 CODE
+22 186 0 CODE
+23 18D 0 CODE
+24 190 0 CODE
+20 19A 0 CODE
+26 1B2 0 CODE
+27 1B7 0 CODE
+29 1CE 0 CODE
+30 1D5 0 CODE
+31 1D8 0 CODE
+27 1E2 0 CODE
+33 1FA 0 CODE
+34 1FF 0 CODE
+36 216 0 CODE
+37 21D 0 CODE
+38 220 0 CODE
+34 22A 0 CODE
+40 242 0 CODE
+41 244 0 CODE
