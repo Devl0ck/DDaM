@@ -1,0 +1,15 @@
+﻿  Assembling Source.asm...
+Source.asm(1): error A2008: syntax error : .
+Source.asm(2): error A2008: syntax error : .
+Source.asm(3): error A2008: syntax error : .
+Source.asm(98): error A2008: syntax error : Invoke
+Source.asm(99): error A2008: syntax error : Start
+Source.asm(99): error A2088: END directive required at end of file
+Source.asm(29): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(34): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(41): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(43): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(73): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(92): error A2229: cannot use labels and 32-bit addressing in the same expression
+Source.asm(94): error A2229: cannot use labels and 32-bit addressing in the same expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\Source.obj" /W3 /errorReport:prompt  /TaSource.asm" с кодом "1".
